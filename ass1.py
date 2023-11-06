@@ -1,3 +1,7 @@
+# Name: Peace Oloruntoba
+#AUL/SCI/21?00726
+#Mathematical Sciences
+
 from math import exp
 
 
@@ -27,7 +31,6 @@ def main():
         print(f"     x{i + 1}      |      {approx[i]}      |       {exact[i]}       |      {exact[i] - approx[i]} ")
         print(
             f"----------------------------------------------------------------------------------------------------------")
-
 
 def f(xn, yn):
     return 3 * (xn ** 2) * yn
