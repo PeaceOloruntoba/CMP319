@@ -1,6 +1,6 @@
 # Name: Peace Oloruntoba
-#AUL/SCI/21?00726
-#Mathematical Sciences
+# AUL/SCI/21?00726
+# Mathematical Sciences
 
 from math import exp
 
