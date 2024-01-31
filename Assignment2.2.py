@@ -39,12 +39,12 @@ def solve_and_compare_predictor_corrector(h_values):
         error_pc3 = [abs(y_exact[i] - y_pc3[i]) for i in range(len(x_values))]
 
         print(f"\nResults for h = {h}\n")
-        print(" x      |   Exact   |   PC2     |   Error PC2")
+        print(" x     |   Exact   |   PC2     |   Error PC2")
         for i in range(len(x_values)):
             print(f"{x_values[i]:.4f} | {y_exact[i]:.6f} | {y_pc2[i]:.6f} | {error_pc2[i]:.6f}")
 
         print("\nAdams Predictor-Corrector 3-steps:")
-        print(" x      |   Exact   |   PC3     |   Error PC3")
+        print(" x     |  Exact   |   PC3    |  Error PC3")
         for i in range(len(x_values)):
             print(f"{x_values[i]:.4f} | {y_exact[i]:.6f} | {y_pc3[i]:.6f} | {error_pc3[i]:.6f}")
 
