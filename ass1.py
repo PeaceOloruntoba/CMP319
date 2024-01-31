@@ -2,8 +2,8 @@
 # AUL/SCI/21?00726
 # Mathematical Sciences
 
+# https://github.com/PeaceOloruntoba
 from math import exp
-
 
 def main():
     x = 0
@@ -13,7 +13,6 @@ def main():
     exact = []
     approx = []
     exact_approx = []
-
     while 0 <= x < 1:
         x = round(x, 2)
         function = round(f(x, y), 7)
@@ -24,7 +23,6 @@ def main():
             ap = round(e(x), 7)
             exact.append(ap)
         x += h
-
     print(f"     Xn     |      Yn(approx)       |      Yn(exact)      |      Error(e)      ")
     print(f"----------------------------------------------------------------------------------------------------------")
     for i in range(len(approx) and len(exact)):
@@ -35,10 +33,9 @@ def main():
 def f(xn, yn):
     return 3 * (xn ** 2) * yn
 
-
 def e(xn):
     c = xn ** 3
     return exp(c)
 
-
 main()
+# 2024 Peace Oloruntoba
