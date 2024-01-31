@@ -18,7 +18,7 @@
 
 
 
-### [**Euler's Method**](https://github.com/black-coda/Numerical-Analysis-methods/blob/main/methods_utils/eulers_method.py)
+### [**Euler's Method**](https://github.com/black-coda/Numerical-Analysis-methods/blob/main/Numerical-Analysis-methods-main/methods_utils/eulers_method.py)
 <br/>
 
 
