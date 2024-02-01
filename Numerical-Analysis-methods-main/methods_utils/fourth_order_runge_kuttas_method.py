@@ -1,5 +1,5 @@
+# https://github.com/PeaceOloruntoba
 import math as mt
-
 
 def fourth_order_runge_kuttas_method(func, init_value_y, init_value_x, h, N):
     count = 0
@@ -26,3 +26,4 @@ def fourth_order_runge_kuttas_method(func, init_value_y, init_value_x, h, N):
         init_value_y = next_value_of_yn
         init_value_x += h
         count += 1
+# 2024 Peace Oloruntoba
