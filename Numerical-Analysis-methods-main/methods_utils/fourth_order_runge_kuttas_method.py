@@ -1,6 +1,9 @@
 # https://github.com/PeaceOloruntoba
 import math as mt
 
+
+Q = lambda x, y: 3 * (x ** 2) * y
+
 def fourth_order_runge_kuttas_method(func, init_value_y, init_value_x, h, N):
     count = 0
     while count != N:
@@ -21,9 +24,12 @@ def fourth_order_runge_kuttas_method(func, init_value_y, init_value_x, h, N):
         # print('\n')
         next_value_of_yn = init_value_y + (1 / 6) * (k1 + 2 * k2 + 2 * k3 + k4)
 
-        print(next_value_of_yn)
+        print("The next value of y is: ", next_value_of_yn)
 
         init_value_y = next_value_of_yn
         init_value_x += h
         count += 1
+
+
+fourth_order_runge_kuttas_method(Q, 1, 0, 0.1, 5)
 # 2024 Peace Oloruntoba
